@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Pratik - Devloper portfolio
+        </title>
+        <link rel="stylesheet"href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left"><samp class="yellow">P</samp>ratik <samp class="yellow">Protfolio</samp></div>
+                <div class="right">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="firstsection">
+                <div class="leftsection">
+                    Hi, My name is <span class="purple">Pratik</span>
+                    <div>I am passionate</div>
+                    <span id="element"></span>
+                </div>
+                <div class="rightsection">
+                    <img src="Front image.png" alt="webdevp_img">
+                </div>
+            </section>
+            <hr>
+            <section class="secondsection">
+                <span class="text-gray">What I done so far</span>
+                <h1>Past Expirence</h1>
+            </section>
+        </main>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer', 'Web Designer,','Trader','Cassual Gamer','Video Editor'],
+              typeSpeed: 50,
+            });
+          </script>
+    </body>
+</html>
