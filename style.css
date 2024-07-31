@@ -92,9 +92,9 @@ main hr{
 .text-gray{
   color: gray;
 }
-@media screen and (max-width: 608px) {
-  div.example {
-    display: none;
-    
+@media screen and (max-width: 319px) 
+{
+  body{
+    color: red;
   }
 }
