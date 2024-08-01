@@ -1,0 +1,9 @@
+h1{
+    color: yellow;
+}
+@media all and (max-width:720px)
+{
+    h1{
+        color: red;
+    }
+}

@@ -92,9 +92,27 @@ main hr{
 .text-gray{
   color: gray;
 }
-@media screen and (max-width: 319px) 
+@media all and (max-width: 760px) 
 {
-  body{
-    color: red;
+  main{
+    background-color: rgb(0, 0, 0);
+    color:white;
   }
+  .firstsection{
+    display: block;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .leftsection{
+    width: 100%;
+    display:contents;
+    text-align: center;
+  }
+  .rightsection{
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+  }
+  
 }
