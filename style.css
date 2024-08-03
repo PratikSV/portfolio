@@ -97,11 +97,11 @@ main hr{
   height: 1.4px;
   margin: 40px;
 }
-secondsection{
-  background-color: blanchedalmond;
+.secondsection{
+  background-color: rgb(3, 36, 53);
 }
 #edu{
-  margin:50px 50px ;
+  margin:50px 30px ;
   font-size: 4rem;
   text-align: center;
   text-decoration: underline ;
@@ -126,8 +126,7 @@ secondsection{
   overflow: visible;
   width: 300px;
   height: 400px;
-  margin: 50px;
-  margin-left: 300px;
+  margin: 50px 30px;
 }
 .content {
   width: 100%;
@@ -282,6 +281,12 @@ secondsection{
   width: 30px;
   height: 30px;
   animation-delay: -1800ms;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
 }
 
 @keyframes floating {
