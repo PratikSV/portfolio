@@ -6,7 +6,13 @@ body{
   background: url(bacgradient.jpg);
   color: white;
   font-family: "Poppins";
-  background-size: cover;
+  background-size:contain;
+  padding-top: 5rem;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0%;
 }
 nav{
   display: flex;
@@ -77,15 +83,21 @@ main hr{
   height: 1.4px;
   margin: 40px;
 }
+secondsection{
+  background-color: blanchedalmond;
+}
 #edu{
   margin:50px 50px ;
   font-size: 4rem;
   padding: 20px;
   background-color: rgb(71, 83, 93);
+  display: block;
 }
 .SSC{
   background:rgb(33, 33, 33);
-  margin:50px 300px ;
+  margin:50px;
+  margin-left: 300px;
+  margin-right: 30px;
   font-size: 2rem;
   padding: 20px;
   height: 300px;
