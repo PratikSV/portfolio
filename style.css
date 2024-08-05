@@ -306,7 +306,6 @@ main hr{
 {
   
   main{
-    background-color: rgb(177, 33, 33);
     color:white;
   }
   .firstsection{
@@ -316,13 +315,23 @@ main hr{
     margin-right: 10%;
   }
   .leftsection{
-    width: 100%;
     display:contents;
-    text-align: center;
+    text-align:unset;
     font-size: 5rem;
   }
-  .rightsection{
-    margin-left: 45%;
+  .rightsection img{
+    height: 624px;
+    display: block;
+    margin-left: 190px;
+    width: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
   }
   
 }
