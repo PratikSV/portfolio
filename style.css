@@ -117,18 +117,25 @@ header{
     justify-content: center;
 }
 section{
-    background-color: red;
     width: 100%;
     height: 580px;
     margin-top: 65px;
     display: flex;
 }
 .firstsection{
-    background-color: bisque;
     height: 480px;
     width: 55%;
     margin: 3%;
-    padding: 50px;
+    padding-left: 115px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    font-size: 3rem;
+}
+.orange{
+    color: orange;
+}
+.font4{
+    font-size: 4rem;
 }
 .secondsection{
     background-color: aquamarine;
@@ -136,6 +143,33 @@ section{
     width: 40%;
     margin: 3%;
 }
+#element{
+    font-weight: bold;
+}
+#education{
+    width: 100%;
+    height: 650px;
+}
+#education .education{
+    margin: 5% 10%;
+    width: 100%;
+    padding: 3%;
+    border: rgb(168, 168, 168) solid 2px;
+}
+.education h1{
+    font-size: 3rem;
+    color: orange;
+    font-family:'Times New Roman', Times, serif;
+}
+.edu h2{
+    color: white;
+    font-size: 2rem;
+    margin: 10px;
+}
+.edushift{
+    margin-left: 30px;
+}
+
 /* Responsive Design */
 @media (max-width: 992px) {
     .navbar .links,
