@@ -155,6 +155,7 @@ section{
     width: 100%;
     padding: 3%;
     border: rgb(168, 168, 168) solid 2px;
+    border-radius: 20px;
 }
 .education h1{
     font-size: 3rem;
@@ -168,8 +169,54 @@ section{
 }
 .edushift{
     margin-left: 30px;
+}   
+.about h1{
+    font-size: 3rem;
+    color: orange;
+    font-family:'Times New Roman', Times, serif;
+}
+#about{
+    margin-bottom: 3%;
+    height: 630px;
+    padding: 1%;
+}
+.about{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 580px;
+    padding: 10px 1%;
+    border: white solid 2px;
+}
+.absection{
+    display: flex;
+    width: 100%;
+    height: auto;   
+}
+.abcont1{
+    width: 60%;
+    margin: 2%;
+    padding: 50px;
+    font-size: 1.5rem;
+    border: orange solid 4px;
+    border-radius: 30px;
+}
+.abcont2{
+    width: 25%;
+    margin: 2%;
+    height: 300px;
+    background-color: green;
 }
 
+#contact
+{
+    height: 650px;
+    width: 100%;
+    background-color: gold;
+    margin: 5%;
+}
 /* Responsive Design */
 @media (max-width: 992px) {
     .navbar .links,
