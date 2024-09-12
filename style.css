@@ -149,6 +149,7 @@ section{
 #education{
     width: 100%;
     height: 650px;
+    padding-top: 70px;
 }
 #education .education{
     margin: 5% 10%;
@@ -264,7 +265,32 @@ section{
     .dropdown_menu{
         display: block;
     }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
     body{
-        background-image: url(backgroun_phone.jpg);
+        background-color: black;
+    }
+    .home{
+        width: 100%;
+        height: 650px;
+        display: block;
+    }
+    .home .firstsection{
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+        padding-top:0 ;
+        padding-bottom: 0px;
+        height: 300px;
+    }
+    .home .secondsection{
+        height: 330px;
+        width: 370px;
+        border-radius: 100px;
+        align-content: center;
     }
 }
