@@ -132,13 +132,6 @@ section{
     padding-top: 10px;
     padding-bottom: 50px;
     font-size: 3rem;
-    /* blure property */
-    background: rgba( 255, 255, 255, 0 );
-box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
-backdrop-filter: blur( 9px );
--webkit-backdrop-filter: blur( 10px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .orange{
     color: orange;
@@ -270,6 +263,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    }
+    .firstsection{
+        background: rgba( 255, 255, 255, 0 );
+        box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+        backdrop-filter: blur( 9px );
+        -webkit-backdrop-filter: blur( 10px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
 }
 /* Responsive Design */
