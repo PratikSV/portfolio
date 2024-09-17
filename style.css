@@ -124,12 +124,12 @@ section{
 
 .firstsection{
     height: 480px;
-    width: 55%;
-    margin: 3%;
+    width: 37%;
+    margin-right: 16%;
     margin-left: 115px;
-    padding-left: 20px;
-    margin-top: 60px;
-    padding-top: 10px;
+    padding-left: 60px;
+    margin-top: 100px;
+    padding-top: 30px;
     padding-bottom: 50px;
     font-size: 3rem;
 }
@@ -167,6 +167,9 @@ section{
     border: rgb(168, 168, 168) solid 2px;
     border-radius: 20px;
     background-color: rgb(41, 40, 40)
+}
+.edu{
+    margin-top: 50px;
 }
 .education h1{
     font-size: 3rem;
@@ -278,6 +281,7 @@ section{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        height: 660px;
     }
     .firstsection{
         background: rgba( 255, 255, 255, 0 );
@@ -313,7 +317,7 @@ section{
     }
     .home{
         width: 100%;
-        height: 650px;
+        height: 700px;
         display: block;
     }
     .home .firstsection{
@@ -346,9 +350,14 @@ section{
     }
     .education h1{
         font-size: 2rem;
+        text-align: center;
+        width: 100%;
     }
     .education h2{
         font-size: 1rem;
+    }
+    .edu{
+        margin-top: 2px;
     }
     .skills{
         height: 390px;
