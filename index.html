@@ -109,26 +109,44 @@
     </section>
     <section id="contact">
         <div class="contact">
-            
-            <form action="#">
+            <div class="first">
+                <h2>Contact</h2>
+                +91 8291359762<br>
+                Mon - Fri 8:00am to 7:00pm<br>
+                <b><h3>Email:</h3></b>pratikgaikwad7738@gmail.com
+            </div>
+            <div class="second">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="757abb60-eb5c-4340-958a-be22815dbd20">
+                    <input type="text" name="Name" id="name" class="item" placeholder="Your Name"autocomplete="off"required>
+                    <input type="text" name="Email" id="email" class="item" placeholder="Your Email"autocomplete="off"required>
+                    <input type="text" name="Subject" id="subject" class="item" placeholder="Subject"autocomplete="off"required>
+                    <textarea name="Message" id="message" class="item1" cols="50" rows="10" placeholder="Message Box!"autocomplete="off"required></textarea>
+                    <button type="submit">SEND ME</button>
+                </form>
+            </div>
+        </div>
+        <!-- <div class="contact"> 
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="757abb60-eb5c-4340-958a-be22815dbd20">
                 <div class="inputitem">
                     <h1>CONTACT</h1>
                     <div class="hrorange"></div>
                     <div class="dblock">
-                        <input type="text"id="name"class="item" placeholder="Your Name" autocomplete="off">
-                        <input type="text"id="email"class="item" placeholder="Your Email-ID" autocomplete="off">
+                        <input type="text"id="name"class="item" name="Name" placeholder="Your Name" autocomplete="off" required >
+                        <input type="text"id="email"class="item" name="Email" placeholder="Your Email-ID" autocomplete="off" required>
                     </div>
 
                     <div class="dbblock">
-                        <input type="number"id="phone"class="item" placeholder="Your Phone Number" autocomplete="off">
-                        <input type="text"id="subject"class="item" placeholder="Subject" autocomplete="off">
+                        <input type="number"id="phone"class="item" name="Phone" placeholder="Your Phone Number" autocomplete="off"required>
+                        <input type="text"id="subject"class="item" name="Subject" placeholder="Subject" autocomplete="off" required>
                     </div>
-                    <textarea name="message" id="message" placeholder="Enter Message!" autocomplete="off" cols="43" rows="10" class="item"></textarea><br>
-                    <button>Send Message</button>
+                    <textarea name="Message" id="message" placeholder="Enter Message!" autocomplete="off" cols="43" rows="10" class="item"></textarea><br>
+                    <button type="submit">Send Message</button>
                 </div>
 
             </form>
-        </div>
+        </div> -->
     </section>
     <!-- <footer>
         <h1>footer links</h1>

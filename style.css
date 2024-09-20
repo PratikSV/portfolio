@@ -243,12 +243,84 @@ section{
     scale: 0.95;
 }
 /* Contact */
-#contact
-{
-    height: 690px;
+
+.contact{
+    display: flex;
+    margin-top: 90px;
+    height: 620px;
     width: 100%;
 }
-.contact{
+.first{
+    height: 90%;
+    width: 46%;
+    margin: 2%;
+    padding: 5%;
+}
+.first h2{
+    font-size: 3rem;
+    color: orange;
+}
+.first h3{
+    font-size: 2rem;
+}
+.first{
+    font-size: 1.5rem;
+}
+.second{
+    background-color:  rgb(98, 98, 98);
+    height: 90%;
+    width: 46%;
+    margin: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    border-radius: 50px;
+}
+.item{
+    background: rgba(255, 255, 255, 0.436);
+    border: 2px solid rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    padding: 6px;
+    border-radius: 50px;
+    margin: 10px 5px;   
+}
+.item1{
+    background: rgba(255, 255, 255, 0.436);
+    border: 2px solid rgb(255, 255, 255);
+    height: 200px;
+    width: 100%;
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 25px;
+    margin: 10px 5px; 
+}
+.item::placeholder{
+    color: white;
+    font-weight: bolder;
+}
+.item1::placeholder{
+    color: white;
+    font-weight: bolder;
+}
+form button{
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+    font-size: 2rem;
+    padding: 6px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bolder;
+}
+/* 
+#contact
+{
+    height: 620px;
+    width: 100%;
+}
+    .contact{
     margin: 4.5% 20%;
     width:60% ;
     height: 600px;
@@ -299,10 +371,10 @@ form button{
     height: 40px;
     width: 100%;
     padding: 3px;
-    border-radius: 50px;
+    border-radius: 6px;
     font-size: 2rem;
     text-align: center;
-}
+} */
 /* contact */
 
 @media (min-width: 1440px){
