@@ -610,10 +610,11 @@ form button{
         margin-top: 59px;
         border-radius: 30px;
         display: block;
-        height: 675px;
+        height: 670px;
         background-color: rgb(67, 66, 66);
         border: 2px solid white;
         padding: 5%;
+        
     }
     .abcont2 img{
         height: 250px;
@@ -645,5 +646,44 @@ form button{
     /* About */
 
     /* content */
+    #contact{
+        margin-top: 90px;
+    }
+    .contact{
+        margin-top: 60px;
+        display: block;
+        height: 670px;
+    }
+    .first{
+        font-size: 1rem;
+        width: 100%;
+        height: auto;
+        margin: 0 ;
+        text-align: center;
+    }
+    .second{
+        width: 98%;
+        margin: 1%;
+        height: 400px;
+    }
+    .item{
+        background: rgba(255, 255, 255, 0.436);
+        border: 2px solid rgb(255, 255, 255);
+        height: 50spx;
+        width: 100%;
+        padding: 5px;
+        border-radius: 50px;
+        margin: 5px 2px;   
+    }
+    .item1{
+        background: rgba(255, 255, 255, 0.436);
+        border: 2px solid rgb(255, 255, 255);
+        height: 120px;
+        width: 100%;
+        padding: 15px;
+        font-weight: bolder;
+        border-radius: 25px;
+        margin: 10px 5px; 
+    }
     /* content */
 }
