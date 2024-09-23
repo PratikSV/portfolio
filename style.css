@@ -282,7 +282,7 @@ form button{
     font-weight: bolder;
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1080px){
     .home{
         background-image: url(Pcbackground.png);
         background-size: cover;
@@ -481,7 +481,7 @@ form button{
     }
     /* About */
 }
-/* Responsive Design */
+/* Responsive Design for phone*/
 @media (max-width: 992px) {
     .navbar .links,
     .navbar .action_btn{
