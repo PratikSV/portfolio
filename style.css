@@ -213,7 +213,6 @@ section{
 
 .contact{
     display: flex;
-    margin-top: 90px;
     height: 620px;
     width: 100%;
 }
@@ -646,7 +645,7 @@ form button{
 
     /* content */
     #contact{
-        margin-top: 90px;
+        margin-top: 70px;
     }
     .contact{
         margin-top: 60px;
@@ -671,7 +670,7 @@ form button{
     .item{
         background: rgba(255, 255, 255, 0.436);
         border: 2px solid rgb(255, 255, 255);
-        height: 50spx;
+        height: 40px;
         width: 100%;
         padding: 5px;
         border-radius: 50px;
@@ -680,7 +679,7 @@ form button{
     .item1{
         background: rgba(255, 255, 255, 0.436);
         border: 2px solid rgb(255, 255, 255);
-        height: 120px;
+        height: 110px;
         width: 100%;
         padding: 15px;
         font-weight: bolder;
