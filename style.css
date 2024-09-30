@@ -517,11 +517,15 @@ form button{
         padding-bottom: 0px;
         height: 300px;
     }
+    .home .secondsection{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
     .home .secondsection img {
         height: 300px;
         width: auto;
-        align-content: center;
-        margin: 0 10%;
     }
     /* Education */
     #education{
