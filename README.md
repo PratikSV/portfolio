@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Pratik Gaikwad!
 
 ### 🌟 About Me
-I am a second-year BCA student at Somaiya Vidyavihar University with a strong foundation in web development and programming. I am currently interning at Shadowfox, applying my skills to real-world projects and striving to grow as a developer.
+I am a Third YEAR BCA student at Somaiya Vidyavihar University with a strong foundation in web development and programming. I am currently interning at Shadowfox, applying my skills to real-world projects and striving to grow as a developer.
 
 - 🌱 **Currently Learning:** Advanced JavaScript, CSS animations, and backend development.
 - 💻 **Skills:** HTML, CSS, JavaScript, Python, Java, C, PowerPoint presentation.
